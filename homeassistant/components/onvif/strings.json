@@ -17,22 +17,22 @@
       },
       "device": {
         "data": {
-          "host": "Select discovered ONVIF device"
+          "host": "[%key:common::config_flow::data::host%]"
         },
         "title": "Select ONVIF device"
       },
       "manual_input": {
         "data": {
-          "host": "Host",
-          "port": "Port"
+          "host": "[%key:common::config_flow::data::host%]",
+          "port": "[%key:common::config_flow::data::port%]"
         },
         "title": "Configure ONVIF device"
       },
       "auth": {
         "title": "Configure authentication",
         "data": {
-          "username": "Username",
-          "password": "Password"
+          "username": "[%key:common::config_flow::data::username%]",
+          "password": "[%key:common::config_flow::data::password%]"
         }
       },
       "configure_profile": {
